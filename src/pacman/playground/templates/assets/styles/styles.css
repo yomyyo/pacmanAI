@@ -1,0 +1,62 @@
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 560px;
+    height: 560px;
+    border: solid black;
+}
+
+.grid div {
+    width: 20px;
+    height: 20px;
+}
+
+.food {
+    background-color: green;
+    border: 5px solid white;
+    box-sizing: border-box;
+}
+
+.wall {
+    background-color: blue;
+}
+
+.power-pellet {
+    background-color: green;
+    border-radius: 10px;
+}
+
+.pac-man {
+    background: url("../img/pacman.gif") 0 0;
+    border-radius: 10px;
+    background-color: yellow;
+}
+
+.ghost1 {
+    background-color: red;
+    border: 0px;
+}
+
+.ghost2 {
+    background-color: pink;
+    border: 0px;
+
+}
+
+.ghost3 {
+    background-color: cyan;    
+    border: 0px;
+
+}
+
+.ghost4 {
+    background-color: orange;     
+    border: 0px;
+
+}
+
+.scared-ghost {
+    background-color: darkblue;
+    border: 0px;
+
+}
