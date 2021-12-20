@@ -3,8 +3,9 @@
     <head>
         <meta charset="utf-8">
         <title>PacMan</title>
-        <link rel="stylesheet" href="./assets/styles/styles.css">
-        <script src="./assets/js/index.js"></script>
+        {% load static %}
+        <link rel="stylesheet" type="text/css" href="{% static 'assets/styles/styles.css' %}">
+        <script src="{% static 'assets/js/index.js' %}"></script>
     </head>
 
     <body>
